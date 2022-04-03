@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 /* Navbar */
 .navbar {
     background-color: #3DBEFF;
@@ -22,4 +23,44 @@
     border-radius: 20px;
     background-color: white;
     color: black;
+}
+
+/* Blue header */
+.blue {
+    background: url(./images/desktop/image-header.jpg) no-repeat center;
+    background-color: #3DBEFF;
+    background-size: contain;
+
+}
+.blue h1 {
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+
+/* Content */
+.content-img {
+    width: 100%;
+}
+.content-info {
+    padding: 0 200px;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .blue {
+        height: 200px;
+    }
+    .blue h1 {
+        padding: 0;
+    }
+    .content-info {
+        padding: 10px 100px;
+    }
 }
