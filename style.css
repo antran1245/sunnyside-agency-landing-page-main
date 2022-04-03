@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* Navbar */
+.navbar {
+    background-color: #3DBEFF;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.navbar .navbar-toggler {
+    border: none;
+    outline: none;
+}
+.navbar .navbar-toggler-icon {
+    background-image: url(./images/icon-hamburger.svg);
+}
+.navbar a:hover {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
